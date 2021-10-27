@@ -1,0 +1,12 @@
+<%- include("template/cabecera") %>
+<body>
+    <h1>Este es el index</h1>
+    <div>
+        <% if (arrayMascotas.length > 0) { %>
+         <% arrayMascotas.forEach(mascota => { %>
+          mascota.nombre
+         <% }) %>
+        <% } %>
+    </div>
+</body>
+</html>
